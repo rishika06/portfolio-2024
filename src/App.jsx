@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,11 +14,10 @@ function App() {
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
           <Hero />
         </header>
-        <main className="pt-24 lg:w-1/2 lg:py-24">
+        <main className="lg:w-1/2 lg:py-24">
           <About />
-          <About />
-          <About />
-          <About />
+          <Projects />
+          <Experience />
         </main>
       </div>
     </div>

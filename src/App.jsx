@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Certifications from "./components/Certifications";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
           <About />
           <Projects />
           <Experience />
+          <Certifications />
         </main>
       </div>
     </div>

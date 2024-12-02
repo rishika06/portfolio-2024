@@ -9,11 +9,11 @@ function Certifications() {
         Certifications
       </h2>
       {cetificationData.map((item) => (
-        <Box className="flex items-center w-[95%] my-4 ">
-          <a href={item.link} target="_blank">
+        <a href={item.link} target="_blank">
+          <Box className="flex items-center w-[95%] my-4 cursor-pointer">
             <h3 className="text-slate-200 px-4 py-2">{item.titile}</h3>
-          </a>
-        </Box>
+          </Box>
+        </a>
       ))}
     </>
   );

@@ -5,17 +5,18 @@ import {
   FaInstagramSquare,
   FaCodepen,
 } from "react-icons/fa";
-import displayPicture from "../assets/DP.jpeg";
+import displayPicture from "../assets/DP I.png";
+import { MdEmail, MdLocalPhone } from "react-icons/md";
 
 function Hero() {
   return (
     <section>
       <div>
-        <div className="h-56 mb-10">
+        <div className="mb-10">
           <img
             src={displayPicture}
             alt="Display Picture"
-            className="h-full rounded-xl"
+            className="h-72 w-72 rounded-full object-cover"
           />
         </div>
         <h1 className="text-4xl font-bold text-pale-olive sm:text-5xl">
@@ -24,8 +25,14 @@ function Hero() {
         <h3 className="text-2xl pt-4 font-semibold text-pale-olive sm:text-xl">
           Senior Frontend Engineer
         </h3>
-        <p className="text-lg pt-4 max-w-xs leading-tight text-steel-blue-Gray">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed tempore
+        <p className="text-lg pt-4 max-w-xs leading-tight text-steel-blue-Gray flex items-center">
+          <MdEmail />
+          <span className="pl-3">rishika.kjobs@gmail.com</span>
+        </p>
+
+        <p className="text-lg pt-4 max-w-xs leading-tight text-steel-blue-Gray flex items-center">
+          <MdLocalPhone />
+          <span className="pl-3">+91-9008107065</span>
         </p>
       </div>
       <ul className="ml-1 mt-8 flex items-center">

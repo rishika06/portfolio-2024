@@ -1,10 +1,19 @@
 import React from "react";
+import AboutMeAudio from "../assets/aboutMe.mp3";
+import AudioPlayer from "./AudioPlayer";
 
 function About() {
   return (
     <section className="mt-12 md:mt-0">
-      <h2 className="text-slate-300 text-2xl font-semibold">ABOUT</h2>
-      <p className="text-slate-200 opacity-75 pt-4 text-lg">
+      {/* <h2 className="text-slate-300 text-2xl font-semibold">ABOUT</h2> */}
+
+      <h4 className="text-pale-olive pt-4 text-3xl">
+        Let Me Introduce Myself – Press Play!
+      </h4>
+
+      <AudioPlayer src={AboutMeAudio} />
+
+      {/* <p className="text-slate-200 opacity-75 pt-4 text-lg">
         I began my web development journey in 2018, teaching myself HTML, CSS,
         and JavaScript. Since then, I've continuously grown, moving through
         different roles and gaining invaluable experience in technology, UI
@@ -20,7 +29,7 @@ function About() {
         During this time, I channeled my efforts into building new projects and
         learning industry-standard features to sharpen my expertise. I also
         achieved several certifications to solidify my expertise.
-      </p>
+      </p> */}
     </section>
   );
 }

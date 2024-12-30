@@ -34,6 +34,7 @@ export const projectsData = [
       "TypeScript",
       "Tailwind",
       "React Hook Form",
+      "D3.js",
       "Tanstack Table",
       "Shadcn",
       "Zod",

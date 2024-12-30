@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   width: 100%;
-  background-color: var(--dark-green);
+  background-color: var(--darkest-green);
 }
 
 *,

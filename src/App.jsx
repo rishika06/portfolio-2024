@@ -17,8 +17,8 @@ function App() {
         </header>
         <main className="lg:w-1/2 lg:py-24">
           <About />
-          <Projects />
           <Experience />
+          <Projects />
           <Certifications />
         </main>
       </div>

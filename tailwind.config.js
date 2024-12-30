@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "dark-green": "var(--dark-green)",
+        "darkest-green": "var(--darkest-green)",
         "pale-olive": "var(--pale-olive)",
         beige: "var(--beige)",
         ivory: "var(--ivory)",
